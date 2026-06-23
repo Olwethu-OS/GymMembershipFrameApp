@@ -45,7 +45,7 @@ Contract	VARCHAR
 **Steps**
 
 1.Clone the repository:
-git clone https://github.com/your-username/membership-management-system.git
+git clone https://github.com/Olwethu-OS/GymMembershipFrameApp.git
 2.Open the project in NetBeans.
 3.Start the Derby Database server.
 4.Create the MembershipDB database and MembersTbl table.
