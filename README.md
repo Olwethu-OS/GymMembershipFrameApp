@@ -11,44 +11,45 @@ The application supports member registration, searching, updating, deletion, and
 - Store member data in an Apache Derby database
 
 **Technologies Used**
--Java
--Java Swing (GUI)
--JDBC
--Apache Derby Database
--Object-Oriented Programming (OOP)
--DAO (Data Access Object) Design Pattern
+- Java
+- Java Swing (GUI)
+- JDBC
+- Apache Derby Database
+- Object-Oriented Programming (OOP)
+- DAO (Data Access Object) Design Pattern
 
-**Database Configuration**
+## Database Configuration
 
-Default database settings:
-
+```java
 String dburl = "jdbc:derby://localhost:1527/MembershipDB;create=true";
 String username = "app";
 String password = "123";
+  
+## MembersTbl Structure
 
-**MembersTbl Structure**
-
-Column	  Data Type
-Name	    VARCHAR
-Surname	  VARCHAR
-Id	      VARCHAR
-Gender    VARCHAR
-Trainer	  BOOLEAN
-Contract	VARCHAR
+| Column   | Data Type |
+|----------|-----------|
+| Name     | VARCHAR   |
+| Surname  | VARCHAR   |
+| Id       | VARCHAR   |
+| Gender   | VARCHAR   |
+| Trainer  | BOOLEAN   |
+| Contract | VARCHAR   |
 
 **How to Run**
 **Prerequisites**
--Java JDK 8 or higher
--Apache Derby Database
--NetBeans IDE 
+
+- Java JDK 8 or higher
+- Apache Derby Database
+- NetBeans IDE 
 
 **Steps**
 
-1.Clone the repository:
+1. Clone the repository:
 git clone https://github.com/Olwethu-OS/GymMembershipFrameApp.git
-2.Open the project in NetBeans.
-3.Start the Derby Database server.
-4.Create the MembershipDB database and MembersTbl table.
-5.Run:
+2. Open the project in NetBeans.
+3. Start the Derby Database server.
+4. Create the MembershipDB database and MembersTbl table.
+5. Run:
 MembershipApp.java
 
